@@ -1,0 +1,41 @@
+table.bordered-table th, td {
+    border: 1px solid silver;
+    padding: 4px;
+}
+
+table.bordered-table {
+    border-collapse: collapse;
+}
+
+body{
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+select,input,NumInput, TextInput{
+    width:100px;
+    height:25px ;
+    margin: 20px;
+}
+
+label{
+  display: inline-block;
+  width: 100px;
+}
+
